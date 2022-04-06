@@ -12,7 +12,7 @@ jobs:
         run: clean -Ptask='fullRegression' startByTagTask -i
       - name: Create report
         if: always()
-        runL cp -r $(pwd)/docks/history/. $(pwd)/allure-results/history || true && npm run report
+        run cp -r $(pwd)/docks/history/. $(pwd)/allure-results/history || true && npm run report
       - uses: actions/upload-artifact@v1
         if: always()
         with:
