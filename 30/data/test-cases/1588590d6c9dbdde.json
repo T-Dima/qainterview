@@ -1,0 +1,213 @@
+{
+  "uid" : "1588590d6c9dbdde",
+  "name" : "Verify that 'Terms and conditions' link is present",
+  "fullName" : "qa_interview.web.TC0005_VerifyTermsAndConditionsLinkIsPresentANdClickable.verifyTermsAndConditionsLinkIsPresentANdClickable",
+  "historyId" : "553f17efecb5931041cab6dc225e7f35",
+  "time" : {
+    "start" : 1649266439063,
+    "stop" : 1649266441272,
+    "duration" : 2209
+  },
+  "description" : "Verify that 'Terms and conditions' link is present",
+  "descriptionHtml" : "<p>Verify that 'Terms and conditions' link is present</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Verify that 'Terms and conditions' link is present",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(open) https://qainterview.pythonanywhere.com",
+      "time" : {
+        "start" : 1649266439064,
+        "stop" : 1649266440855,
+        "duration" : 1791
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Verify that 'Terms and conditions' link is present",
+      "time" : {
+        "start" : 1649266440859,
+        "stop" : 1649266440889,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(By.xpath: //div[@class='row-fluid']//a[@href='/terms']) should be(visible)",
+        "time" : {
+          "start" : 1649266440859,
+          "stop" : 1649266440889,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "status",
+        "value" : "true"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Click on the 'Terms and conditions' link",
+      "time" : {
+        "start" : 1649266440890,
+        "stop" : 1649266441067,
+        "duration" : 177
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(By.xpath: //div[@class='row-fluid']//a[@href='/terms']) click()",
+        "time" : {
+          "start" : 1649266440890,
+          "stop" : 1649266441067,
+          "duration" : 177
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify that 'Body' tag is available",
+      "time" : {
+        "start" : 1649266441068,
+        "stop" : 1649266441104,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(By.xpath: //body) should be(visible)",
+        "time" : {
+          "start" : 1649266441068,
+          "stop" : 1649266441104,
+          "duration" : 36
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify link of 'Terms and conditionals' page",
+      "time" : {
+        "start" : 1649266441104,
+        "stop" : 1649266441109,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "d1745fa22149c184",
+      "name" : "screenshot",
+      "source" : "d1745fa22149c184.png",
+      "type" : "image/png",
+      "size" : 17952
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "tag",
+    "value" : "test"
+  }, {
+    "name" : "tag",
+    "value" : "prod"
+  }, {
+    "name" : "host",
+    "value" : "fv-az42-743"
+  }, {
+    "name" : "thread",
+    "value" : "3076@fv-az42-743.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "qa_interview.web.TC0005_VerifyTermsAndConditionsLinkIsPresentANdClickable"
+  }, {
+    "name" : "testClass",
+    "value" : "qa_interview.web.TC0005_VerifyTermsAndConditionsLinkIsPresentANdClickable"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyTermsAndConditionsLinkIsPresentANdClickable"
+  }, {
+    "name" : "suite",
+    "value" : "qa_interview.web.TC0005_VerifyTermsAndConditionsLinkIsPresentANdClickable"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TEST-1115",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "prod", "test", "smoke" ]
+  },
+  "source" : "1588590d6c9dbdde.json",
+  "parameterValues" : [ ]
+}

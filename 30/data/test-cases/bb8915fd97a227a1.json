@@ -1,0 +1,74 @@
+{
+  "uid" : "bb8915fd97a227a1",
+  "name" : "Verify that 'Privacy' link is present",
+  "fullName" : "qa_interview.web.TC0006_VerifyPrivacyLinkIsPresentAndClickable.verifyPrivacyLinkIsPresentAndClickable",
+  "historyId" : "fd8ce661a6dcb3e695a870494ab2a968",
+  "time" : {
+    "start" : 1649266441341,
+    "stop" : 1649266441341,
+    "duration" : 0
+  },
+  "description" : "Verify that 'Privacy' link is present",
+  "descriptionHtml" : "<p>Verify that 'Privacy' link is present</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "until bug 0006 with incorrect link is not fixed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "tag",
+    "value" : "test"
+  }, {
+    "name" : "tag",
+    "value" : "prod"
+  }, {
+    "name" : "host",
+    "value" : "fv-az42-743"
+  }, {
+    "name" : "thread",
+    "value" : "3076@fv-az42-743.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "qa_interview.web.TC0006_VerifyPrivacyLinkIsPresentAndClickable"
+  }, {
+    "name" : "testClass",
+    "value" : "qa_interview.web.TC0006_VerifyPrivacyLinkIsPresentAndClickable"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyPrivacyLinkIsPresentAndClickable"
+  }, {
+    "name" : "suite",
+    "value" : "qa_interview.web.TC0006_VerifyPrivacyLinkIsPresentAndClickable"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TEST-1116",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "prod", "test", "smoke" ]
+  },
+  "source" : "bb8915fd97a227a1.json",
+  "parameterValues" : [ ]
+}

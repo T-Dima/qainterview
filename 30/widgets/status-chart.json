@@ -1,0 +1,71 @@
+[ {
+  "uid" : "bb8915fd97a227a1",
+  "name" : "Verify that 'Privacy' link is present",
+  "time" : {
+    "start" : 1649266441341,
+    "stop" : 1649266441341,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "b7e052674b902fc9",
+  "name" : "Verify that validation error appears after trying sending empty input",
+  "time" : {
+    "start" : 1649266430214,
+    "stop" : 1649266433767,
+    "duration" : 3553
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf570efc8d26e6ee",
+  "name" : "Verify pressing 'Enter' button",
+  "time" : {
+    "start" : 1649266441354,
+    "stop" : 1649266443488,
+    "duration" : 2134
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd1f99188b890c00",
+  "name" : "Verify entering a positive number",
+  "time" : {
+    "start" : 1649266433993,
+    "stop" : 1649266436527,
+    "duration" : 2534
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb172d01744dac46",
+  "name" : "Verify entering a negative number",
+  "time" : {
+    "start" : 1649266433934,
+    "stop" : 1649266433934,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "1588590d6c9dbdde",
+  "name" : "Verify that 'Terms and conditions' link is present",
+  "time" : {
+    "start" : 1649266439063,
+    "stop" : 1649266441272,
+    "duration" : 2209
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fdd810990a53b895",
+  "name" : "Verify entering string instead of a number",
+  "time" : {
+    "start" : 1649266436641,
+    "stop" : 1649266438995,
+    "duration" : 2354
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
