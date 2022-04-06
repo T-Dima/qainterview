@@ -1,6 +1,5 @@
 package qa_interview.web;
 
-import io.github.artsok.RepeatedIfExceptionsTest;
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
