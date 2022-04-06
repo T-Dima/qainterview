@@ -12,7 +12,7 @@ import qa_interview.page_object.FactorialPage;
 import qa_interview.page_object.PrivacyPolicyPage;
 import qa_interview.utils.Tags;
 
-@Disabled("until bug 0006 with incorrect link is not fixed")
+//@Disabled("until bug 0006 with incorrect link is not fixed")
 @Tag(Tags.smoke)
 @Tag(Tags.test)
 @Tag(Tags.prod)
