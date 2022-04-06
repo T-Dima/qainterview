@@ -25,7 +25,7 @@ public class TC0001_VerifyValidationErrorAppearsForEmptyField extends BaseWebTes
 
         FactorialPage factorialPage = new FactorialPage();
 
-        factorialPage.isRedBorderOnNumberInputDisplayed(false);
+        factorialPage.isRedBorderOnNumberInputDisplayed(true);
         factorialPage.clickOnCalculateButton();
         factorialPage.isRedBorderOnNumberInputDisplayed(true);
         factorialPage.isErrorMessageDisplayed(true);

@@ -50,6 +50,7 @@ public class FactorialPage extends BasePage{
                     .shouldHave(Condition.text(ErrorMessageConfig.pleaseEnterAnIntegerErrorMessage));
         }else {
             $(By.xpath(resultMessageXpath))
+                    .shouldNotBe(Condition.visible)
                     .shouldNotHave(Condition.text(ErrorMessageConfig.pleaseEnterAnIntegerErrorMessage));
         }
     }
@@ -72,6 +73,7 @@ public class FactorialPage extends BasePage{
     @Step("Verify filled in factorial number")
     public void verifyFactorialOfNumber(int factorialNumber) {
         $(By.xpath(resultMessageXpath))
+                .shouldBe(Condition.visible)
                 .shouldHave(
                         Condition.text(
                                 String.format(
