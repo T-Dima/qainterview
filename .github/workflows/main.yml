@@ -22,7 +22,7 @@ jobs:
       run: gradle test -Ptask=full_regression task -i
     - name: Create report
       if: always()
-      run: cp -r $(pwd)/docs/history/. $(pwd)/allure-results/history || true && npm run report
+      run: cp -r $(pwd)/build/allure-results/. $(pwd)/allure-results/history || true && npm run report
     - uses: actions/upload-artifact@v1
       if: always()
       with:
