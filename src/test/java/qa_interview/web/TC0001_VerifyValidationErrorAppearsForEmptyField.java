@@ -20,6 +20,7 @@ public class TC0001_VerifyValidationErrorAppearsForEmptyField extends BaseWebTes
     @DisplayName("Verify that validation error appears after trying sending empty input")
     @TmsLink("TEST-1111")
     @Test
+
     public void verifyValidationErrorAppearsForEmptyField() {
 
         FactorialPage factorialPage = new FactorialPage();
