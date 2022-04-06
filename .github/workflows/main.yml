@@ -19,7 +19,3 @@ jobs:
     - name: Run tests
       env:
         SELENIUM_HUB_HOST: 'localhost'
-      run: gradle test -Ptask=full_regression task -i
-    - name: Create report
-
-
