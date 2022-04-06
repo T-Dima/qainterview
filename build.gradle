@@ -243,6 +243,5 @@ task startByTagTask(type: Test) {
                 println "unique tag"
             }; break
         default: println "test type is not chosen"
-
     }
 }

@@ -1,0 +1,29 @@
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    name: Run tests
+    steps:
+      - name: Start Selenoid Server
+        uses: Xotabu4/selenoid-github-action@v1
+      - uses: actions/checkout@v1
+      - name: Run tests
+        env:
+          SELENIUM_HUB_HOST: 'localhost'
+        run: clean -Ptask='fullRegression' startByTagTask -i
+      - name: Create report
+        if: always()
+        runL cp -r $(pwd)/docks/history/. $(pwd)/allure-results/history || true && npm run report
+      - uses: actions/upload-artifact@v1
+        if: always()
+        with:
+          name: allure-report
+          path: ./allure-report
+      - name: Deploy report
+        uses: JamesIves/github-pages-deploy-action@3.0.1
+        if: always()
+        with:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: main
+          FOLDER: allure-report
+          TARGET_FOLDER: dosc
+
