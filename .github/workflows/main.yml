@@ -28,12 +28,12 @@ jobs:
       with:
         name: allure-report
         path: ./allure-report
-      - name: Deploy report
-        uses: JamesIves/github-pages-deploy-action@3.0.1
-        if: always()
-        with:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: main
-          FOLDER: allure-report
-          TARGET_FOLDER: docs
+    - name: Deploy report
+      uses: JamesIves/github-pages-deploy-action@3.0.1
+      if: always()
+      with:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        BRANCH: main
+        FOLDER: allure-report
+        TARGET_FOLDER: docs
 
