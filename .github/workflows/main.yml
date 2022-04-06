@@ -1,12 +1,1 @@
 name: tests
-
-on:
-  push:
-    branches-ignore:
-    - '!master'
-    path-ignore:
-    - 'docs/**'
-
-
-
-
