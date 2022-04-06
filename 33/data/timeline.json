@@ -1,0 +1,104 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az74-504",
+    "children" : [ {
+      "name" : "3084@fv-az74-504.Test worker(1)",
+      "children" : [ {
+        "name" : "Verify entering string instead of a number",
+        "uid" : "881c9d098bc75699",
+        "parentUid" : "0c8c17d50b1a37b62188dec83e4d1536",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649270216427,
+          "stop" : 1649270219329,
+          "duration" : 2902
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify entering a positive number",
+        "uid" : "ad209df4e6a2f73",
+        "parentUid" : "0c8c17d50b1a37b62188dec83e4d1536",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649270213082,
+          "stop" : 1649270216226,
+          "duration" : 3144
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify entering a negative number",
+        "uid" : "a376cc257578c1f9",
+        "parentUid" : "0c8c17d50b1a37b62188dec83e4d1536",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1649270212990,
+          "stop" : 1649270212990,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify pressing 'Enter' button",
+        "uid" : "944de868eb337551",
+        "parentUid" : "0c8c17d50b1a37b62188dec83e4d1536",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649270225077,
+          "stop" : 1649270238213,
+          "duration" : 13136
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify that 'Privacy' link is present",
+        "uid" : "f5728ac1c737fd2a",
+        "parentUid" : "0c8c17d50b1a37b62188dec83e4d1536",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649270222261,
+          "stop" : 1649270225011,
+          "duration" : 2750
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify that validation error appears after trying sending empty input",
+        "uid" : "b92d6e1d00e4b55f",
+        "parentUid" : "0c8c17d50b1a37b62188dec83e4d1536",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649270208692,
+          "stop" : 1649270212744,
+          "duration" : 4052
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify that 'Terms and conditions' link is present",
+        "uid" : "b8ac823d97474b93",
+        "parentUid" : "0c8c17d50b1a37b62188dec83e4d1536",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649270219411,
+          "stop" : 1649270222186,
+          "duration" : 2775
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0c8c17d50b1a37b62188dec83e4d1536"
+    } ],
+    "uid" : "8c3997c4c6a78451cf0fe53f869bd8b9"
+  } ],
+  "name" : "timeline"
+}

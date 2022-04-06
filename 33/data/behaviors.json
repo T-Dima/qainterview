@@ -1,0 +1,96 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Verify that validation error appears after trying sending empty input",
+    "uid" : "b92d6e1d00e4b55f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1649270208692,
+      "stop" : 1649270212744,
+      "duration" : 4052
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify entering a negative number",
+    "uid" : "a376cc257578c1f9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1649270212990,
+      "stop" : 1649270212990,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify entering a positive number",
+    "uid" : "ad209df4e6a2f73",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649270213082,
+      "stop" : 1649270216226,
+      "duration" : 3144
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify entering string instead of a number",
+    "uid" : "881c9d098bc75699",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649270216427,
+      "stop" : 1649270219329,
+      "duration" : 2902
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify that 'Terms and conditions' link is present",
+    "uid" : "b8ac823d97474b93",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649270219411,
+      "stop" : 1649270222186,
+      "duration" : 2775
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify that 'Privacy' link is present",
+    "uid" : "f5728ac1c737fd2a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649270222261,
+      "stop" : 1649270225011,
+      "duration" : 2750
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify pressing 'Enter' button",
+    "uid" : "944de868eb337551",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1649270225077,
+      "stop" : 1649270238213,
+      "duration" : 13136
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}

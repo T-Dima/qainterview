@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://T-Dima.github.io/qainterview",
+  "buildOrder" : 33,
+  "buildName" : "GitHub Actions Run #2104371251",
+  "buildUrl" : "https://github.com/T-Dima/qainterview/actions/runs/2104371251",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://T-Dima.github.io/qainterview/33/"
+} ]
