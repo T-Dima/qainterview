@@ -1,0 +1,81 @@
+{
+  "total" : 7,
+  "items" : [ {
+    "uid" : "33461ef16c5f4e1c8debccb7420d97f9",
+    "name" : "qa_interview.web.TCs.TC0001_VerifyValidationErrorAppearsForEmptyField",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "1f6a88bb3487ef1f878e2d5292aca226",
+    "name" : "qa_interview.web.TCs.TC0003_VerifyEnteringPositiveNumber",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "a53948bb0ff7928c8afc79def5d0551e",
+    "name" : "qa_interview.web.TCs.TC0004_VerifyEnteringCharInsteadOfNumber",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "5023d534b0d044e466d986778676bcd6",
+    "name" : "qa_interview.web.TCs.TC0005_VerifyTermsAndConditionsLinkIsPresentANdClickable",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "be93190ae759ce6516d6c68ab39ceabd",
+    "name" : "qa_interview.web.TCs.TC0007_VerifyPressingEnterButton",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "1c6277e9b1c25fab196ffd2b66e4ec27",
+    "name" : "qa_interview.web.TCs.TC0002_VerifyEnteringNegativeNumber",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "c7b3192a7037ee34d53100e5fb13facd",
+    "name" : "qa_interview.web.TCs.TC0006_VerifyPrivacyLinkIsPresentAndClickable",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

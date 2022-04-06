@@ -1,0 +1,144 @@
+{
+  "cab18fab26fc2655345e024f79df70f4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "91572d55e7bf3d5a",
+      "reportUrl" : "https://T-Dima.github.io/qainterview/28//#testresult/91572d55e7bf3d5a",
+      "status" : "skipped",
+      "statusDetails" : "Until bug TEST2222 is not fixed",
+      "time" : {
+        "start" : 1649265085024,
+        "stop" : 1649265085024,
+        "duration" : 0
+      }
+    } ]
+  },
+  "8483bc3b26634cf71fc765eec0e630df" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "732cbb1c6a544148",
+      "reportUrl" : "https://T-Dima.github.io/qainterview/28//#testresult/732cbb1c6a544148",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649265088164,
+        "stop" : 1649265090684,
+        "duration" : 2520
+      }
+    } ]
+  },
+  "c7bff559dfa94fc485dc4cc2afc01c28" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b97e31207c9ccf3d",
+      "reportUrl" : "https://T-Dima.github.io/qainterview/28//#testresult/b97e31207c9ccf3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649265093188,
+        "stop" : 1649265095600,
+        "duration" : 2412
+      }
+    } ]
+  },
+  "4056cedaf3a72ca1b54c0f217156f14" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cd6ad4583e37056d",
+      "reportUrl" : "https://T-Dima.github.io/qainterview/28//#testresult/cd6ad4583e37056d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649265080930,
+        "stop" : 1649265084854,
+        "duration" : 3924
+      }
+    } ]
+  },
+  "b394da0de788306707b70552b78d50f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ae0f055a37010711",
+      "reportUrl" : "https://T-Dima.github.io/qainterview/28//#testresult/ae0f055a37010711",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649265085064,
+        "stop" : 1649265087999,
+        "duration" : 2935
+      }
+    } ]
+  },
+  "6c4f7c96c2a301a443c7b4452d523a90" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b439a4575587fbe6",
+      "reportUrl" : "https://T-Dima.github.io/qainterview/28//#testresult/b439a4575587fbe6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649265090749,
+        "stop" : 1649265093111,
+        "duration" : 2362
+      }
+    } ]
+  },
+  "caae39c6da4b8e0bed852126e2cacd5c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b2e080cfb9c84452",
+      "reportUrl" : "https://T-Dima.github.io/qainterview/28//#testresult/b2e080cfb9c84452",
+      "status" : "skipped",
+      "statusDetails" : "until bug 0006 with incorrect link is not fixed",
+      "time" : {
+        "start" : 1649265093178,
+        "stop" : 1649265093178,
+        "duration" : 0
+      }
+    } ]
+  }
+}
