@@ -1,0 +1,81 @@
+{
+  "total" : 7,
+  "items" : [ {
+    "uid" : "cf817f1b42b4003b62a5a161cf1e0197",
+    "name" : "qa_interview.web.TC0001_VerifyValidationErrorAppearsForEmptyField",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "3e4ba6d4df810637a76a81e613e6d8fc",
+    "name" : "qa_interview.web.TC0003_VerifyEnteringPositiveNumber",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "232fb55926e5beea9c657d11f7daf652",
+    "name" : "qa_interview.web.TC0004_VerifyEnteringCharInsteadOfNumber",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "d47eb7f45c29b5edfde748acdddc6777",
+    "name" : "qa_interview.web.TC0005_VerifyTermsAndConditionsLinkIsPresentANdClickable",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "f8301ff6a3acb5173d384a0327d079ca",
+    "name" : "qa_interview.web.TC0006_VerifyPrivacyLinkIsPresentAndClickable",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "1f3de1fd60ccc4bd721268e8b540d1aa",
+    "name" : "qa_interview.web.TC0007_VerifyPressingEnterButton",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "59b946bd4ac03cbee52283a4d6aadb3e",
+    "name" : "qa_interview.web.TC0002_VerifyEnteringNegativeNumber",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

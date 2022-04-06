@@ -1,0 +1,287 @@
+{
+  "uid" : "b9c2964fee3dcdc7",
+  "name" : "Verify that validation error appears after trying sending empty input",
+  "fullName" : "qa_interview.web.TC0001_VerifyValidationErrorAppearsForEmptyField.verifyValidationErrorAppearsForEmptyField",
+  "historyId" : "ebae03e85268c5cbeb12e9489528ba08",
+  "time" : {
+    "start" : 1649267662455,
+    "stop" : 1649267666338,
+    "duration" : 3883
+  },
+  "description" : "Verify that validation error appears after trying sending empty input",
+  "descriptionHtml" : "<p>Verify that validation error appears after trying sending empty input</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Verify that validation error appears after trying sending empty input",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(open) https://qainterview.pythonanywhere.com",
+      "time" : {
+        "start" : 1649267662495,
+        "stop" : 1649267665463,
+        "duration" : 2968
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Verify is border on 'Enter an integer' input displayed",
+      "time" : {
+        "start" : 1649267665492,
+        "stop" : 1649267665782,
+        "duration" : 290
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$([id='number']) get attribute(style)",
+        "time" : {
+          "start" : 1649267665567,
+          "stop" : 1649267665637,
+          "duration" : 70
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "status",
+        "value" : "false"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Click on the 'Calculate' button",
+      "time" : {
+        "start" : 1649267665783,
+        "stop" : 1649267665991,
+        "duration" : 208
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$([id='getFactorial']) should be(visible)",
+        "time" : {
+          "start" : 1649267665783,
+          "stop" : 1649267665898,
+          "duration" : 115
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$([id='getFactorial']) click()",
+        "time" : {
+          "start" : 1649267665899,
+          "stop" : 1649267665991,
+          "duration" : 92
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify is border on 'Enter an integer' input displayed",
+      "time" : {
+        "start" : 1649267665992,
+        "stop" : 1649267666010,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$([id='number']) get attribute(style)",
+        "time" : {
+          "start" : 1649267665992,
+          "stop" : 1649267666010,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "status",
+        "value" : "true"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify is error message displayed",
+      "time" : {
+        "start" : 1649267666011,
+        "stop" : 1649267666119,
+        "duration" : 108
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(By.xpath: //p[@id='resultDiv']) should be(visible)",
+        "time" : {
+          "start" : 1649267666011,
+          "stop" : 1649267666086,
+          "duration" : 75
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(By.xpath: //p[@id='resultDiv']) should have(text 'Please enter an integer')",
+        "time" : {
+          "start" : 1649267666087,
+          "stop" : 1649267666119,
+          "duration" : 32
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "status",
+        "value" : "true"
+      } ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "c0b98647737b1a97",
+      "name" : "screenshot",
+      "source" : "c0b98647737b1a97.png",
+      "type" : "image/png",
+      "size" : 28413
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "full_regression"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "tag",
+    "value" : "test"
+  }, {
+    "name" : "tag",
+    "value" : "prod"
+  }, {
+    "name" : "host",
+    "value" : "fv-az127-579"
+  }, {
+    "name" : "thread",
+    "value" : "3131@fv-az127-579.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "qa_interview.web.TC0001_VerifyValidationErrorAppearsForEmptyField"
+  }, {
+    "name" : "testClass",
+    "value" : "qa_interview.web.TC0001_VerifyValidationErrorAppearsForEmptyField"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyValidationErrorAppearsForEmptyField"
+  }, {
+    "name" : "suite",
+    "value" : "qa_interview.web.TC0001_VerifyValidationErrorAppearsForEmptyField"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TEST-1111",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "b7e052674b902fc9",
+        "reportUrl" : "https://T-Dima.github.io/qainterview/30//#testresult/b7e052674b902fc9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649266430214,
+          "stop" : 1649266433767,
+          "duration" : 3553
+        }
+      } ]
+    },
+    "tags" : [ "prod", "test", "full_regression", "smoke" ]
+  },
+  "source" : "b9c2964fee3dcdc7.json",
+  "parameterValues" : [ ]
+}
