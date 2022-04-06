@@ -1,0 +1,124 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "qa_interview.web.TC0001_VerifyValidationErrorAppearsForEmptyField",
+    "children" : [ {
+      "name" : "Verify that validation error appears after trying sending empty input",
+      "uid" : "c5f5b0ef3062a34f",
+      "parentUid" : "cf817f1b42b4003b62a5a161cf1e0197",
+      "status" : "failed",
+      "time" : {
+        "start" : 1649270580386,
+        "stop" : 1649270583928,
+        "duration" : 3542
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "cf817f1b42b4003b62a5a161cf1e0197"
+  }, {
+    "name" : "qa_interview.web.TC0002_VerifyEnteringNegativeNumber",
+    "children" : [ {
+      "name" : "Verify entering a negative number",
+      "uid" : "df8ea6fd551058c5",
+      "parentUid" : "59b946bd4ac03cbee52283a4d6aadb3e",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1649270584238,
+        "stop" : 1649270584238,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "59b946bd4ac03cbee52283a4d6aadb3e"
+  }, {
+    "name" : "qa_interview.web.TC0003_VerifyEnteringPositiveNumber",
+    "children" : [ {
+      "name" : "Verify entering a positive number",
+      "uid" : "947c4ebeb140d8be",
+      "parentUid" : "3e4ba6d4df810637a76a81e613e6d8fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649270584281,
+        "stop" : 1649270586837,
+        "duration" : 2556
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3e4ba6d4df810637a76a81e613e6d8fc"
+  }, {
+    "name" : "qa_interview.web.TC0004_VerifyEnteringCharInsteadOfNumber",
+    "children" : [ {
+      "name" : "Verify entering string instead of a number",
+      "uid" : "a2539d74068d286a",
+      "parentUid" : "232fb55926e5beea9c657d11f7daf652",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649270586963,
+        "stop" : 1649270589311,
+        "duration" : 2348
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "232fb55926e5beea9c657d11f7daf652"
+  }, {
+    "name" : "qa_interview.web.TC0005_VerifyTermsAndConditionsLinkIsPresentANdClickable",
+    "children" : [ {
+      "name" : "Verify that 'Terms and conditions' link is present",
+      "uid" : "6d57ae1dbc039962",
+      "parentUid" : "d47eb7f45c29b5edfde748acdddc6777",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649270589380,
+        "stop" : 1649270592014,
+        "duration" : 2634
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d47eb7f45c29b5edfde748acdddc6777"
+  }, {
+    "name" : "qa_interview.web.TC0006_VerifyPrivacyLinkIsPresentAndClickable",
+    "children" : [ {
+      "name" : "Verify that 'Privacy' link is present",
+      "uid" : "871b4cbeb806cc74",
+      "parentUid" : "f8301ff6a3acb5173d384a0327d079ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649270592094,
+        "stop" : 1649270594529,
+        "duration" : 2435
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f8301ff6a3acb5173d384a0327d079ca"
+  }, {
+    "name" : "qa_interview.web.TC0007_VerifyPressingEnterButton",
+    "children" : [ {
+      "name" : "Verify pressing 'Enter' button",
+      "uid" : "f70608cb6c04ab4f",
+      "parentUid" : "1f3de1fd60ccc4bd721268e8b540d1aa",
+      "status" : "failed",
+      "time" : {
+        "start" : 1649270594611,
+        "stop" : 1649270607466,
+        "duration" : 12855
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1f3de1fd60ccc4bd721268e8b540d1aa"
+  } ],
+  "name" : "suites"
+}

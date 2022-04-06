@@ -1,0 +1,104 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az135-170",
+    "children" : [ {
+      "name" : "3359@fv-az135-170.Test worker(1)",
+      "children" : [ {
+        "name" : "Verify that 'Terms and conditions' link is present",
+        "uid" : "6d57ae1dbc039962",
+        "parentUid" : "9d1025c4f7ddac0e88a34c1aa79eb7ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649270589380,
+          "stop" : 1649270592014,
+          "duration" : 2634
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify entering a negative number",
+        "uid" : "df8ea6fd551058c5",
+        "parentUid" : "9d1025c4f7ddac0e88a34c1aa79eb7ab",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1649270584238,
+          "stop" : 1649270584238,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify pressing 'Enter' button",
+        "uid" : "f70608cb6c04ab4f",
+        "parentUid" : "9d1025c4f7ddac0e88a34c1aa79eb7ab",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649270594611,
+          "stop" : 1649270607466,
+          "duration" : 12855
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify that validation error appears after trying sending empty input",
+        "uid" : "c5f5b0ef3062a34f",
+        "parentUid" : "9d1025c4f7ddac0e88a34c1aa79eb7ab",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649270580386,
+          "stop" : 1649270583928,
+          "duration" : 3542
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify entering string instead of a number",
+        "uid" : "a2539d74068d286a",
+        "parentUid" : "9d1025c4f7ddac0e88a34c1aa79eb7ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649270586963,
+          "stop" : 1649270589311,
+          "duration" : 2348
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify that 'Privacy' link is present",
+        "uid" : "871b4cbeb806cc74",
+        "parentUid" : "9d1025c4f7ddac0e88a34c1aa79eb7ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649270592094,
+          "stop" : 1649270594529,
+          "duration" : 2435
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify entering a positive number",
+        "uid" : "947c4ebeb140d8be",
+        "parentUid" : "9d1025c4f7ddac0e88a34c1aa79eb7ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649270584281,
+          "stop" : 1649270586837,
+          "duration" : 2556
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9d1025c4f7ddac0e88a34c1aa79eb7ab"
+    } ],
+    "uid" : "b9636c6ae3ae016ad85244eda9c357b8"
+  } ],
+  "name" : "timeline"
+}

@@ -1,0 +1,125 @@
+{
+  "uid" : "df8ea6fd551058c5",
+  "name" : "Verify entering a negative number",
+  "fullName" : "qa_interview.web.TC0002_VerifyEnteringNegativeNumber.verifyEnteringNegativeNumber",
+  "historyId" : "6f996ec9a4b50a86b64c7c072922d294",
+  "time" : {
+    "start" : 1649270584238,
+    "stop" : 1649270584238,
+    "duration" : 0
+  },
+  "description" : "Verify entering a negative number",
+  "descriptionHtml" : "<p>Verify entering a negative number</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "Until bug TEST2222 is not fixed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "tag",
+    "value" : "test"
+  }, {
+    "name" : "tag",
+    "value" : "prod"
+  }, {
+    "name" : "host",
+    "value" : "fv-az135-170"
+  }, {
+    "name" : "thread",
+    "value" : "3359@fv-az135-170.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "qa_interview.web.TC0002_VerifyEnteringNegativeNumber"
+  }, {
+    "name" : "testClass",
+    "value" : "qa_interview.web.TC0002_VerifyEnteringNegativeNumber"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyEnteringNegativeNumber"
+  }, {
+    "name" : "suite",
+    "value" : "qa_interview.web.TC0002_VerifyEnteringNegativeNumber"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TEST-1112",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 5,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "a376cc257578c1f9",
+        "reportUrl" : "https://T-Dima.github.io/qainterview/33//#testresult/a376cc257578c1f9",
+        "status" : "skipped",
+        "statusDetails" : "Until bug TEST2222 is not fixed",
+        "time" : {
+          "start" : 1649270212990,
+          "stop" : 1649270212990,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c93913190ea379b6",
+        "reportUrl" : "https://T-Dima.github.io/qainterview/32//#testresult/c93913190ea379b6",
+        "status" : "skipped",
+        "statusDetails" : "Until bug TEST2222 is not fixed",
+        "time" : {
+          "start" : 1649269084172,
+          "stop" : 1649269084173,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "b1ae002ddf889e1b",
+        "reportUrl" : "https://T-Dima.github.io/qainterview/31//#testresult/b1ae002ddf889e1b",
+        "status" : "skipped",
+        "statusDetails" : "Until bug TEST2222 is not fixed",
+        "time" : {
+          "start" : 1649267666525,
+          "stop" : 1649267666526,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "bb172d01744dac46",
+        "reportUrl" : "https://T-Dima.github.io/qainterview/30//#testresult/bb172d01744dac46",
+        "status" : "skipped",
+        "statusDetails" : "Until bug TEST2222 is not fixed",
+        "time" : {
+          "start" : 1649266433934,
+          "stop" : 1649266433934,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "prod", "test", "smoke" ]
+  },
+  "source" : "df8ea6fd551058c5.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,261 @@
+{
+  "uid" : "871b4cbeb806cc74",
+  "name" : "Verify that 'Privacy' link is present",
+  "fullName" : "qa_interview.web.TC0006_VerifyPrivacyLinkIsPresentAndClickable.verifyPrivacyLinkIsPresentAndClickable",
+  "historyId" : "fd8ce661a6dcb3e695a870494ab2a968",
+  "time" : {
+    "start" : 1649270592094,
+    "stop" : 1649270594529,
+    "duration" : 2435
+  },
+  "description" : "Verify that 'Privacy' link is present",
+  "descriptionHtml" : "<p>Verify that 'Privacy' link is present</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Verify that 'Privacy' link is present",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(open) https://qainterview.pythonanywhere.com",
+      "time" : {
+        "start" : 1649270592097,
+        "stop" : 1649270594020,
+        "duration" : 1923
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Verify that 'Terms and conditions' link is present",
+      "time" : {
+        "start" : 1649270594024,
+        "stop" : 1649270594060,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(By.xpath: //div[@class='row-fluid']//a[@href='/terms']) should be(visible)",
+        "time" : {
+          "start" : 1649270594024,
+          "stop" : 1649270594060,
+          "duration" : 36
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "status",
+        "value" : "true"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Click on the 'Privacy' link",
+      "time" : {
+        "start" : 1649270594060,
+        "stop" : 1649270594270,
+        "duration" : 210
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(By.xpath: //div[@class='row-fluid']//a[@href='/privacy']) click()",
+        "time" : {
+          "start" : 1649270594060,
+          "stop" : 1649270594270,
+          "duration" : 210
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify that 'Body' tag is available",
+      "time" : {
+        "start" : 1649270594271,
+        "stop" : 1649270594358,
+        "duration" : 87
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(By.xpath: //body) should be(visible)",
+        "time" : {
+          "start" : 1649270594271,
+          "stop" : 1649270594358,
+          "duration" : 87
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify link of 'Privacy' page",
+      "time" : {
+        "start" : 1649270594359,
+        "stop" : 1649270594364,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "5c3fa2eda4acbe3d",
+      "name" : "screenshot",
+      "source" : "5c3fa2eda4acbe3d.png",
+      "type" : "image/png",
+      "size" : 17150
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "tag",
+    "value" : "test"
+  }, {
+    "name" : "tag",
+    "value" : "prod"
+  }, {
+    "name" : "host",
+    "value" : "fv-az135-170"
+  }, {
+    "name" : "thread",
+    "value" : "3359@fv-az135-170.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "qa_interview.web.TC0006_VerifyPrivacyLinkIsPresentAndClickable"
+  }, {
+    "name" : "testClass",
+    "value" : "qa_interview.web.TC0006_VerifyPrivacyLinkIsPresentAndClickable"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyPrivacyLinkIsPresentAndClickable"
+  }, {
+    "name" : "suite",
+    "value" : "qa_interview.web.TC0006_VerifyPrivacyLinkIsPresentAndClickable"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TEST-1116",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 1,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "f5728ac1c737fd2a",
+        "reportUrl" : "https://T-Dima.github.io/qainterview/33//#testresult/f5728ac1c737fd2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649270222261,
+          "stop" : 1649270225011,
+          "duration" : 2750
+        }
+      }, {
+        "uid" : "1684fe4f0ca721b9",
+        "reportUrl" : "https://T-Dima.github.io/qainterview/32//#testresult/1684fe4f0ca721b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649269091488,
+          "stop" : 1649269093605,
+          "duration" : 2117
+        }
+      }, {
+        "uid" : "61d703576d0767bd",
+        "reportUrl" : "https://T-Dima.github.io/qainterview/31//#testresult/61d703576d0767bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649267674516,
+          "stop" : 1649267676907,
+          "duration" : 2391
+        }
+      }, {
+        "uid" : "bb8915fd97a227a1",
+        "reportUrl" : "https://T-Dima.github.io/qainterview/30//#testresult/bb8915fd97a227a1",
+        "status" : "skipped",
+        "statusDetails" : "until bug 0006 with incorrect link is not fixed",
+        "time" : {
+          "start" : 1649266441341,
+          "stop" : 1649266441341,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "prod", "test", "smoke" ]
+  },
+  "source" : "871b4cbeb806cc74.json",
+  "parameterValues" : [ ]
+}
