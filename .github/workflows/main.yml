@@ -9,7 +9,7 @@ jobs:
       - name: Run tests
         env:
           SELENIUM_HUB_HOST: 'localhost'
-        run: clean -Ptask='fullRegression' startByTagTask -i
+        run: gradle test -Ptask=full_regression task -i
       - name: Create report
         if: always()
         run: cp -r $(pwd)/docs/history/. $(pwd)/allure-results/history || true && npm run report
