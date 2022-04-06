@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "[Border color is equal to required] \nexpected: \"border: 2px solid red;\"\n but was: \"\"",
+      "children" : [ {
+        "name" : "Verify that validation error appears after trying sending empty input",
+        "uid" : "1dde12b647049464",
+        "parentUid" : "b214fba501f9641bd6a4cd1022fe29f1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649271122563,
+          "stop" : 1649271125969,
+          "duration" : 3406
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b214fba501f9641bd6a4cd1022fe29f1"
+    }, {
+      "name" : "Element should not be visible {By.xpath: //p[@id='resultDiv']}\nElement: '<p class=\"text-center top-space-20\" id=\"resultDiv\"></p>'\nActual value: visible:true\nScreenshot: file:/home/runner/work/qainterview/qainterview/build/reports/tests/1649271148086.0.png\nPage source: file:/home/runner/work/qainterview/qainterview/build/reports/tests/1649271148086.0.html\nTimeout: 10 s.",
+      "children" : [ {
+        "name" : "Verify pressing 'Enter' button",
+        "uid" : "2f9dd69b779cc26e",
+        "parentUid" : "131692f3930273a629ffbdc5ed97fd5c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649271136095,
+          "stop" : 1649271148525,
+          "duration" : 12430
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "131692f3930273a629ffbdc5ed97fd5c"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

@@ -1,0 +1,128 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "qa_interview.web",
+    "children" : [ {
+      "name" : "TC0001_VerifyValidationErrorAppearsForEmptyField",
+      "children" : [ {
+        "name" : "verifyValidationErrorAppearsForEmptyField",
+        "uid" : "1dde12b647049464",
+        "parentUid" : "7ae5034710d43eb02e9b7e5929840cb5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649271122563,
+          "stop" : 1649271125969,
+          "duration" : 3406
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7ae5034710d43eb02e9b7e5929840cb5"
+    }, {
+      "name" : "TC0002_VerifyEnteringNegativeNumber",
+      "children" : [ {
+        "name" : "verifyEnteringNegativeNumber",
+        "uid" : "db1c9258233456b2",
+        "parentUid" : "004670e534f4ff1ab7fa6fce535655a5",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1649271126223,
+          "stop" : 1649271126223,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "004670e534f4ff1ab7fa6fce535655a5"
+    }, {
+      "name" : "TC0003_VerifyEnteringPositiveNumber",
+      "children" : [ {
+        "name" : "verifyEnteringPositiveNumber",
+        "uid" : "677778a8862349c0",
+        "parentUid" : "bfe4c67db2b790f7eb5a263533b60c2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649271126279,
+          "stop" : 1649271129076,
+          "duration" : 2797
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bfe4c67db2b790f7eb5a263533b60c2a"
+    }, {
+      "name" : "TC0004_VerifyEnteringCharInsteadOfNumber",
+      "children" : [ {
+        "name" : "verifyEnteringStringInsteadOfNumber",
+        "uid" : "8deb450314e468ca",
+        "parentUid" : "a6e9ab98d2b583e537dc86721bb3d6bf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649271129218,
+          "stop" : 1649271131441,
+          "duration" : 2223
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a6e9ab98d2b583e537dc86721bb3d6bf"
+    }, {
+      "name" : "TC0005_VerifyTermsAndConditionsLinkIsPresentANdClickable",
+      "children" : [ {
+        "name" : "verifyTermsAndConditionsLinkIsPresentANdClickable",
+        "uid" : "590b3d79d5fd27e1",
+        "parentUid" : "34de61f32d537006724522768d5af13b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649271131511,
+          "stop" : 1649271133693,
+          "duration" : 2182
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "34de61f32d537006724522768d5af13b"
+    }, {
+      "name" : "TC0006_VerifyPrivacyLinkIsPresentAndClickable",
+      "children" : [ {
+        "name" : "verifyPrivacyLinkIsPresentAndClickable",
+        "uid" : "c5f3852015b129cc",
+        "parentUid" : "fba765128f9ab043bb93b68ede9d8fa7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649271133761,
+          "stop" : 1649271136020,
+          "duration" : 2259
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fba765128f9ab043bb93b68ede9d8fa7"
+    }, {
+      "name" : "TC0007_VerifyPressingEnterButton",
+      "children" : [ {
+        "name" : "verifyPressingEnterButton",
+        "uid" : "2f9dd69b779cc26e",
+        "parentUid" : "0748dc438c8909554af4a5782aac9619",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649271136095,
+          "stop" : 1649271148525,
+          "duration" : 12430
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0748dc438c8909554af4a5782aac9619"
+    } ],
+    "uid" : "qa_interview.web"
+  } ],
+  "name" : "packages"
+}
