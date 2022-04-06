@@ -14,3 +14,4 @@ jobs:
     name: Run tests
     steps:
     - name: Start Selenoid Server
+      uses: Xotabu4/selenoid-github-action@v1
