@@ -1,0 +1,237 @@
+{
+  "uid" : "ae0f055a37010711",
+  "name" : "Verify entering a positive number",
+  "fullName" : "qa_interview.web.TCs.TC0003_VerifyEnteringPositiveNumber.verifyEnteringPositiveNumber",
+  "historyId" : "b394da0de788306707b70552b78d50f",
+  "time" : {
+    "start" : 1649265085064,
+    "stop" : 1649265087999,
+    "duration" : 2935
+  },
+  "description" : "Verify entering a positive number",
+  "descriptionHtml" : "<p>Verify entering a positive number</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Verify entering a positive number",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(open) https://qainterview.pythonanywhere.com",
+      "time" : {
+        "start" : 1649265085065,
+        "stop" : 1649265087100,
+        "duration" : 2035
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Fill in with number 5 for field 'Enter an integer'",
+      "time" : {
+        "start" : 1649265087101,
+        "stop" : 1649265087224,
+        "duration" : 123
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$([id='number']) set value(5)",
+        "time" : {
+          "start" : 1649265087101,
+          "stop" : 1649265087224,
+          "duration" : 123
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "number",
+        "value" : "5"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Click on the 'Calculate' button",
+      "time" : {
+        "start" : 1649265087224,
+        "stop" : 1649265087427,
+        "duration" : 203
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$([id='getFactorial']) should be(visible)",
+        "time" : {
+          "start" : 1649265087224,
+          "stop" : 1649265087312,
+          "duration" : 88
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$([id='getFactorial']) click()",
+        "time" : {
+          "start" : 1649265087313,
+          "stop" : 1649265087427,
+          "duration" : 114
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify filled in factorial number",
+      "time" : {
+        "start" : 1649265087427,
+        "stop" : 1649265087829,
+        "duration" : 402
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Calculate a factorial number of 5",
+        "time" : {
+          "start" : 1649265087428,
+          "stop" : 1649265087434,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "n",
+          "value" : "5"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(By.xpath: //p[@id='resultDiv']) should have(text 'The factorial of 5 is: 120')",
+        "time" : {
+          "start" : 1649265087436,
+          "stop" : 1649265087829,
+          "duration" : 393
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "factorialNumber",
+        "value" : "5"
+      } ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "cfdf9150acc5e2ba",
+      "name" : "screenshot",
+      "source" : "cfdf9150acc5e2ba.png",
+      "type" : "image/png",
+      "size" : 27739
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "full_regression"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "tag",
+    "value" : "test"
+  }, {
+    "name" : "tag",
+    "value" : "prod"
+  }, {
+    "name" : "host",
+    "value" : "fv-az77-979"
+  }, {
+    "name" : "thread",
+    "value" : "3173@fv-az77-979.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "qa_interview.web.TCs.TC0003_VerifyEnteringPositiveNumber"
+  }, {
+    "name" : "testClass",
+    "value" : "qa_interview.web.TCs.TC0003_VerifyEnteringPositiveNumber"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyEnteringPositiveNumber"
+  }, {
+    "name" : "suite",
+    "value" : "qa_interview.web.TCs.TC0003_VerifyEnteringPositiveNumber"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TEST-1113",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "prod", "test", "full_regression", "smoke" ]
+  },
+  "source" : "ae0f055a37010711.json",
+  "parameterValues" : [ ]
+}
